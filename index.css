@@ -9,3 +9,7 @@ body {
 h1 {
     font-size: 120px;
 }
+
+.nav-element {
+    background-color: var(--orange);
+}
