@@ -3,7 +3,7 @@ body {
     --orange: #f98125;
     --white: #FFFFFF;
     color: var(--white);
-    background: var(--blue);
+    background-color: var(--blue);
 }
 
 h1 {
