@@ -1,5 +1,9 @@
 body {
-    background-color: #5872aa;
+    --blue: #2c599d;
+    --orange: #f98125;
+    --white: #FFFFFF;
+    color: var(--white);
+    background: var(--blue);
 }
 
 h1 {
