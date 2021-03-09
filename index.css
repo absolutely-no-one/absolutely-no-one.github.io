@@ -1,6 +1,6 @@
 body {
     --blue: #2c599d;
-    --orange: #f98125;
+    --blue-2: #a7c3ff;
     --white: #FFFFFF;
     color: var(--white);
     background-color: var(--blue);
@@ -12,4 +12,12 @@ body {
 
 #nav-bar {
     padding: 15px 10px;
+}
+
+#username {
+    border-bottom: 3px solid white;
+}
+
+.mui-panel {
+    background-color: var(--blue-2);
 }
