@@ -6,11 +6,10 @@ body {
     background-color: var(--blue);
 }
 
-h1 {
-    font-size: 120px;
+#main {
+    padding: 15px;
 }
 
-.nav-element {
-    background-color: var(--orange);
-    text-decoration: none;
+#nav-bar {
+    padding: 15px 10px;
 }
