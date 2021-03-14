@@ -8,6 +8,7 @@
             <link href='index.css' rel='stylesheet'>
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jump.js/1.0.1/jump.min.js'></script>
             <script src='index.js'></script>
         </head>
         <body>
@@ -18,7 +19,7 @@
               </div>
                 <div class='column is-2'></div>
                 <div class="column is-2">
-                  <div class="box">
+                  <div class="box" onclick='jumpTo(".about")'>
                     <p class="title is-5 has-text-centered"> About </p>
                   </div>
                 </div>
@@ -37,6 +38,10 @@
           <div id='main'>
             <div class='mui-panel'>
               <p class='title is-1 has-text-white has-text-centered'> Hello! </p>
+            </div>
+
+            <div class='mui-panel about'>
+              <p class='title is-1 has-text-white'> About </p>
             </div>
           </div>
         </body>
