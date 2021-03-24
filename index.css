@@ -21,3 +21,14 @@ body {
 .mui-panel {
     background-color: var(--blue-2);
 }
+
+.text {
+    font-size: 24px;
+}
+
+.tile {
+    padding: 10px;
+    border-radius: 5px;
+    background-clip: padding-box;
+    background-color: var(--blue);
+}
