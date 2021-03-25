@@ -1,3 +1,3 @@
 function jumpTo(element) {
-    Jump(element)
+    Jump(element);
 }
