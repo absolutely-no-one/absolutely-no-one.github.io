@@ -44,5 +44,13 @@ body {
 .thumbnail-text {
     position: relative;
     top: 25px;
-    font-size: 50px;
+    font-size: 60px;
+    font-family: Dosis, sans-serif;
+    border-bottom: 3px solid white;
+}
+
+.description {
+    position: relative;
+    bottom: 20px;
+    font-style: italic;
 }
