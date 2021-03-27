@@ -53,4 +53,6 @@ body {
     position: relative;
     bottom: 20px;
     font-style: italic;
+    font-family: 'Comic Neue', Helvectica, sans-serif;
+    border-top: 3px solid white;
 }
