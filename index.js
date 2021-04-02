@@ -11,21 +11,32 @@ document.addEventListener('keydown', function(event) {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
     }
 });
-/*
+
 $.getJSON("questions.json", function(json) {
     let questions = json;
     for (i=0; i<questions.length; i++) {
+        // initialize variables to create elements
         var element = document.getElementById('questions');
         var question = document.createElement('p');
         var answer = document.createElement('p');
-        question.setAttribute('class', 'question');
+        var asker = document.createElement('p');
+        var lineBreak = document.createElement('hr');
+        // add classes and ids to the elements, important for styling
+        question.setAttribute('id', 'question' + i);
+        question.setAttribute('class', 'question mui-panel deep-blue title is-2 has-text-white');
+        asker.setAttribute('class', 'asker text has-text-white');
+        answer.setAttribute('class', 'answer text has-text-white');
+        // add text to the elements
         question.appendChild(document.createTextNode(questions[i].question));
+        asker.appendChild(document.createTextNode('Asked by ' + questions[i].askedBy));
         answer.appendChild(document.createTextNode(questions[i].answer));
-        question.style.textTransform = 'capitalize';
+        // appends the children to the html page
         element.appendChild(question);
-        element.appendChild(answer);
+        element.appendChild(asker);
+        element.appendChild(lineBreak);
+        document.getElementById('question' + i).appendChild(asker);
+        document.getElementById('question' + i).appendChild(lineBreak);
+        document.getElementById('question' + i).appendChild(answer);
     }
 });
-*/
 
-// above will be fully implemented later

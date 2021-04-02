@@ -1,14 +1,22 @@
 [
     {
-        "question": "what?",
-        "answer": "yeah"
+        "question": "Why did you choose Nobody as a name for the Hopscotch forum?",
+        "askedBy": "NTh3R",
+        "answer": "I mainly chose the name because of the possible jokes.  Eventually people started saying no one, but I can still confuse people with opinions."
     },
     {
-        "question": "what?",
-        "answer": "yeah"
+        "question": "What is your favorite game on Hopscotch?",
+        "askedBy": "GOATGAMES",
+        "answer": "That's a very hard decision because there are so many fun games to play on Hopscotch.  I really like the Top Games projects though."
     },
     {
-        "question": "what?",
-        "answer": "yeah"
+        "question": "Do you like collabs?",
+        "askedBy": "GOATGAMES",
+        "answer": "I kind of like them.  Some have been super fun (such as Team Toucan, when I collabed with Fundardo, tankt2016, and GweTV) while others have not been as fun."
+    },
+    {
+        "question": "Do you like cookies or brownies?",
+        "askedBy": "GOATGAMES",
+        "answer": "I like both.  If I had to choose one, I would choose brownies.  The fudge brownies are my favorite, and with icing they are perfect."
     }
 ]

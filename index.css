@@ -57,3 +57,20 @@ img:hover {
     border-top: 3px solid white;
     padding-top: 20px;
 }
+
+.asker {
+    font-style: italic;
+    font-weight: normal;
+    line-height: 2;
+    font-size: 21px;
+}
+
+.answer {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.deep-blue {
+    background-color: #85abfd;
+}
