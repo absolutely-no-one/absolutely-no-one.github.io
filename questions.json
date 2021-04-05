@@ -1,7 +1,7 @@
 [
     {
         "question": "Why did you choose Nobody as a name for the Hopscotch forum?",
-        "askedBy": "NTh3R and DaughterOfHecate",
+        "askedBy": "NTh3R, DaughterOfHecate, and SwimGirlStudios",
         "answer": "I mainly chose the name because of the possible jokes.  Eventually people started saying no one, but I can still confuse people with opinions.",
         "type": "hopscotch"
     },
@@ -33,7 +33,7 @@
         "question": "Do you like cookies or brownies?",
         "askedBy": "GOATGAMES",
         "answer": "I like both.  If I had to choose one, I would choose brownies.  The fudge brownies are my favorite, and with icing they are perfect.",
-        "type": "yes-no"
+        "type": "other"
     },
     {
         "question": "Coding tips?",
@@ -58,5 +58,70 @@
         "askedBy": "Nameless_gamer",
         "answer": "That's a hard one.  I think, if I had to stop using one, I would stop using the forum.  While it is nice talking to people, I enjoy coding more.  But it is a hard decision and not one I would want to make.",
         "type": "hopscotch"
+    },
+    {
+        "question": "Do you prefer coffee, tea, or water?",
+        "askedBy": "Waffle",
+        "answer": "I like water the most.  I'm not a big fan of tea and haven't really had much coffee.",
+        "type": "other"
+    },
+    {
+        "question": "Can you be somebody?",
+        "askedBy": "GOATGAMES",
+        "answer": "I don't know, can I?",
+        "type": "yes-no"
+    },
+    {
+        "question": "How did you choose your Hopscotch name?",
+        "askedBy": "SwimGirlStudios",
+        "answer": "I wanted to choose the name Nobody, but that was taken so I looked for synonyms.  Incognito was also taken, so I added a Mr. to it and now I am Mr. Incognito.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "What's your favorite thing about Hopscotch?",
+        "askedBy": "SwimGirlStudios",
+        "answer": "I like how you can create anything, but with limits.  The fact that you only have a certain amount of blocks to work with provides a challenge which is always fun.  I also really like the community and how nice it is.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "How did you find out about Hopscotch?",
+        "askedBy": "SwimGirlStudios",
+        "answer": "I'm pretty sure one of my parents was looking for an hour of code activity and found it.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "What's your favorite thing to code?",
+        "askedBy": "SwimGirlStudios and Mb248",
+        "answer": "I like creating games, even though I don't make a lot of them.  They are the most enjoyable to actually make (in my opinion).",
+        "type": "hopscotch"
+    },
+    {
+        "question": "What project are you most proud of (inside & outside of Hopscotch) and why?",
+        "askedBy": "SwimGirlStudios",
+        "answer": "I don't really know, I think it would be Over and Under because of the effort I put into it.  Outside of Hopscotch I haven't really done much actual coding, I mainly just tinker with stuff.",
+        "type": "coding"
+    },
+    {
+        "question": "What's something you hope to learn by continuing to use Hopscotch in the future?",
+        "askedBy": "SwimGirlStudios",
+        "answer": "I would like to learn more about how the user interface is designed in most games (e.g. why user information is like a banner at the top of the screen).",
+        "type": "hopscotch"
+    },
+    {
+        "question": "What's the coolest block in Hopscotch (in your opinion)?",
+        "askedBy": "SwimGirlStudios",
+        "answer": "I like the request seeds block, but all the blue control blocks are cool.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "Which block do you use the most?",
+        "askedBy": "SwimGirlStudios",
+        "answer": "I think I use variables or check once if blocks the most.  I'm leaning towards variables because I like to use systems (that read strings) to code stuff.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "Did you look up to anyone when you first joined?",
+        "askedBy": "Mb248",
+        "answer": "Yes, I looked up to a lot of Hopscotchers when I joined (and I still look up to them).  Some Hopscotchers I looked up to were Gilbert189, Madi, and MagmaPOP, but they're just a few that I look up to."
     }
 ]
