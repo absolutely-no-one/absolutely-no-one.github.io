@@ -74,3 +74,21 @@ img:hover {
 .deep-blue {
     background-color: #85abfd;
 }
+
+details > summary {
+    list-style: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    position: relative;
+    top: 10px;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.blue {
+    background-color: #7ea7ff75 !important;
+}

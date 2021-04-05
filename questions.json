@@ -1,22 +1,62 @@
 [
     {
         "question": "Why did you choose Nobody as a name for the Hopscotch forum?",
-        "askedBy": "NTh3R",
-        "answer": "I mainly chose the name because of the possible jokes.  Eventually people started saying no one, but I can still confuse people with opinions."
+        "askedBy": "NTh3R and DaughterOfHecate",
+        "answer": "I mainly chose the name because of the possible jokes.  Eventually people started saying no one, but I can still confuse people with opinions.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "Who is your favorite coder?",
+        "askedBy": "GOATGAMES",
+        "answer": "There are a ton of coders I admire, I don't think I can choose a favorite.",
+        "type": "hopscotch"
     },
     {
         "question": "What is your favorite game on Hopscotch?",
         "askedBy": "GOATGAMES",
-        "answer": "That's a very hard decision because there are so many fun games to play on Hopscotch.  I really like the Top Games projects though."
+        "answer": "That's a very hard decision because there are so many fun games to play on Hopscotch.  I really like the Top Games projects though.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "What's your favorite game I made on Hopscotch?",
+        "askedBy": "GOATGAMES",
+        "answer": "I really like your platformer that's in the dark.  I'm pretty sure its called You Are the Light.",
+        "type": "hopscotch"
     },
     {
         "question": "Do you like collabs?",
         "askedBy": "GOATGAMES",
-        "answer": "I kind of like them.  Some have been super fun (such as Team Toucan, when I collabed with Fundardo, tankt2016, and GweTV) while others have not been as fun."
+        "answer": "I kind of like them.  Some have been super fun (such as Team Toucan, when I collabed with Fundardo, tankt2016, and GweTV) while others have not been as fun.",
+        "type": "hopscotch"
     },
     {
         "question": "Do you like cookies or brownies?",
         "askedBy": "GOATGAMES",
-        "answer": "I like both.  If I had to choose one, I would choose brownies.  The fudge brownies are my favorite, and with icing they are perfect."
+        "answer": "I like both.  If I had to choose one, I would choose brownies.  The fudge brownies are my favorite, and with icing they are perfect.",
+        "type": "yes-no"
+    },
+    {
+        "question": "Coding tips?",
+        "askedBy": "DaughterOfHecate",
+        "answer": "There are a lot of tips that I would like to share, but I'm only including a couple so this is not long.  The most important tip is not to give up.  If you have a bug in your code, there are a lot of people who would be willing to help.  Ask them if you cannot figure out the problem.  Another tip is to comment or explain your code so that you understand it.  This way, if you take a break, you know what eveything is and do not have to relearn your code.",
+        "type": "coding"
+    },
+    {
+        "question": "Do you prefer pixel art or trail art?",
+        "askedBy": "Nameless_gamer",
+        "answer": "I definitely prefer pixel art.  I have not done much trail art and the attempts I have made have not turned out well.  Though pixel art can be boring, it is very satisfying seeing the image come together.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "Do you like apples or bananas more?",
+        "askedBy": "Nameless_gamer",
+        "answer": "I like apples more.  Bananas can leave a weird aftertaste in my throat, I think it is because of all the potassium but I am not sure.  There are also a lot of different apples, so I can choose which ones I like best.",
+        "type": "other"
+    },
+    {
+        "question": "Do you like Hopscotch or the Hopscotch forum more?",
+        "askedBy": "Nameless_gamer",
+        "answer": "That's a hard one.  I think, if I had to stop using one, I would stop using the forum.  While it is nice talking to people, I enjoy coding more.  But it is a hard decision and not one I would want to make.",
+        "type": "hopscotch"
     }
 ]

@@ -16,7 +16,15 @@ $.getJSON("questions.json", function(json) {
     let questions = json;
     for (i=0; i<questions.length; i++) {
         // initialize variables to create elements
-        var element = document.getElementById('questions');
+        if (questions[i].type == 'hopscotch') {
+            var element = document.getElementById('hopscotch-questions');
+        } else if (questions[i].type == 'coding') {
+            var element = document.getElementById('coding-questions');
+        } else if (questions[i].type == 'yes-no') {
+            var element = document.getElementById('yes-no-questions');
+        } else {
+            var element = document.getElementById('other-questions');
+        }
         var question = document.createElement('p');
         var answer = document.createElement('p');
         var asker = document.createElement('p');
@@ -32,8 +40,6 @@ $.getJSON("questions.json", function(json) {
         answer.appendChild(document.createTextNode(questions[i].answer));
         // appends the children to the html page
         element.appendChild(question);
-        element.appendChild(asker);
-        element.appendChild(lineBreak);
         document.getElementById('question' + i).appendChild(asker);
         document.getElementById('question' + i).appendChild(lineBreak);
         document.getElementById('question' + i).appendChild(answer);
