@@ -20,8 +20,6 @@ $.getJSON("questions.json", function(json) {
             var element = document.getElementById('hopscotch-questions');
         } else if (questions[i].type == 'coding') {
             var element = document.getElementById('coding-questions');
-        } else if (questions[i].type == 'yes-no') {
-            var element = document.getElementById('yes-no-questions');
         } else {
             var element = document.getElementById('other-questions');
         }

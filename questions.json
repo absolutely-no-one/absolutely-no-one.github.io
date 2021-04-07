@@ -13,7 +13,7 @@
     },
     {
         "question": "What is your favorite game on Hopscotch?",
-        "askedBy": "GOATGAMES",
+        "askedBy": "GOATGAMES and mb248",
         "answer": "That's a very hard decision because there are so many fun games to play on Hopscotch.  I really like the Top Games projects though.",
         "type": "hopscotch"
     },
@@ -69,7 +69,7 @@
         "question": "Can you be somebody?",
         "askedBy": "GOATGAMES",
         "answer": "I don't know, can I?",
-        "type": "yes-no"
+        "type": "other"
     },
     {
         "question": "How did you choose your Hopscotch name?",
@@ -91,13 +91,13 @@
     },
     {
         "question": "What's your favorite thing to code?",
-        "askedBy": "SwimGirlStudios and Mb248",
+        "askedBy": "SwimGirlStudios, Mb248, and StylishPoopEmoji33",
         "answer": "I like creating games, even though I don't make a lot of them.  They are the most enjoyable to actually make (in my opinion).",
         "type": "hopscotch"
     },
     {
         "question": "What project are you most proud of (inside & outside of Hopscotch) and why?",
-        "askedBy": "SwimGirlStudios",
+        "askedBy": "SwimGirlStudios, mb248, and ExplodingDucks",
         "answer": "I don't really know, I think it would be Over and Under because of the effort I put into it.  Outside of Hopscotch I haven't really done much actual coding, I mainly just tinker with stuff.",
         "type": "coding"
     },
@@ -122,6 +122,91 @@
     {
         "question": "Did you look up to anyone when you first joined?",
         "askedBy": "Mb248",
-        "answer": "Yes, I looked up to a lot of Hopscotchers when I joined (and I still look up to them).  Some Hopscotchers I looked up to were Gilbert189, Madi, and MagmaPOP, but they're just a few that I look up to."
+        "answer": "Yes, I looked up to a lot of Hopscotchers when I joined (and I still look up to them).  Some Hopscotchers I looked up to were Gilbert189, Madi, and MagmaPOP, but they're just a few that I look up to.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "How long have you been coding?",
+        "askedBy": "Mb248, ExplodingDucks",
+        "answer": "I started using Hopscotch in November of 2015.  Around early 2020, I started learning text programming langauges.",
+        "type": "coding"
+    },
+    {
+        "question": "How many variables do you typically use?",
+        "askedBy": "FRENCH_WAVE123",
+        "answer": "I would say around 20 to 30 for actual games.  For pixel arts or music maybe 5.  Sometimes I get lazy and make my code messy by using the same variable for 5 different things even though the name only suits one of the things its being used for.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "How many clones should one object control in a game?",
+        "askedBy": "FRENCH_WAVE123",
+        "answer": "I think that one object should control everything related to the object's purpose.  For example, a start screen sprite should control all of the elements of the start screen.  So there is no real concrete number in my opinion.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "When in the FPS too low to publish?",
+        "askedBy": "FRENCH_WAVE123",
+        "answer": "If the FPS is below 25, I wouldn't publish it because it will seem very slow.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "Has there ever been a project thats encouraged you to code more?",
+        "askedBy": "StylishPoopEmoji33",
+        "answer": "There have been quite a few.  For example, if someone publishes a really cool pixel art I may decide to start one because of it.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "Do you prefer to make trail arts or shape arts?",
+        "askedBy": "StylishPoopEmoji33",
+        "answer": "I realy don't like making both, but if I had to choose one to make I guess it would be shape art.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "What is your favorite color?",
+        "askedBy": "ExplodingDucks",
+        "answer": "My favorite color is orange.",
+        "type": "other"
+    },
+    {
+        "question": "What is the air-speed velocity of an unladen swallow?",
+        "askedBy": "ExplodingDucks",
+        "answer": "42.  But I really have no clue.",
+        "type": "other"
+    },
+    {
+        "question": "What color is the dress?",
+        "askedBy": "ExplodingDucks",
+        "answer": "The question is: which dress?",
+        "type": "other"
+    },
+    {
+        "question": "Yanny or laurel?",
+        "askedBy": "ExplodingDucks",
+        "answer": "Yaurel.",
+        "type": "other"
+    },
+    {
+        "question": "What made you come up with the ideas of the Great Hopscotch Baking Show?",
+        "askedBy": "ExplodingDucks",
+        "answer": "I really have no clue.  If you want the exciting lie, I was sitiing under a tree and tasted a fruit and said: 'this would be a good thing to code,'  Sadly, it went more like me staring at a screen for 20 minutes thinking of themes.",
+        "type": "hopscotch"
+    },
+    {
+        "question": "What's your favorite color scheme - or favorite colors to pair together - in projects?",
+        "askedBy": "PumpkinGirl",
+        "answer": "It depends.  A lot of the time I like to choose one general color and do shades of it to theme the project.  For a favorite color scheme: I don't really have one, though I like shades of orange and blue together.",
+        "type": "coding"
+    },
+    {
+        "question": "What time do you enjoy coding at?",
+        "askedBy": "GOATGAMES",
+        "answer": "I usually code around 7:00 to 9:00 P.M. each night, 7:00 to 8:00 I code using Hopscotch and then I switch to text coding for an hour or so.  I may also code when I'm bored.",
+        "type": "coding"
+    },
+    {
+        "question": "Do you like coding with your sister?",
+        "askedBy": "GOATGAMES",
+        "answer": "Most of the time, yes.  I cannot safely provide more details.",
+        "type": "hopscotch"
     }
 ]
