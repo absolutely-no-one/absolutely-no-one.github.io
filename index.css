@@ -4,6 +4,7 @@ body {
     --white: #FFFFFF;
     color: var(--white);
     background-color: var(--blue);
+    overflow-x: hidden;
 }
 
 #main {
@@ -12,6 +13,10 @@ body {
 
 #nav-bar {
     padding: 15px 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 #username {
@@ -92,4 +97,36 @@ details > summary::-webkit-details-marker {
 
 .blue {
     background-color: #7ea7ff75 !important;
+}
+
+@media screen and (max-width: 600px) {
+    #nav-bar {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 35px !important;
+    }
+
+    .box > .title {
+        font-size: 25px !important;
+    }
+
+    .text {
+        font-size: 21px !important;
+    }
+
+    .thumbnail-text {
+        font-size: 35px !important;
+    }
+
+    .blue > .title {
+        font-size: 25px !important;
+    }
+
+    .asker {
+        font-size: 18px !important;
+    }
 }
