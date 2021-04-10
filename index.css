@@ -80,6 +80,14 @@ img:hover {
     background-color: #85abfd;
 }
 
+.question {
+  width: 250px !important;
+  overflow-y: scroll;
+  height: 450px !important;
+  display: inline-block !important;
+  margin: 10px !important;
+}
+
 details > summary {
     list-style: none;
     -webkit-user-select: none; 
@@ -89,6 +97,16 @@ details > summary {
     position: relative;
     top: 10px;
     outline: 0;
+    text-align: initial;
+    padding: .3em;
+}
+
+details {
+  text-align: center;
+  padding: unset !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  display: block !important;
 }
 
 details > summary::-webkit-details-marker {
@@ -108,6 +126,12 @@ details > summary::-webkit-details-marker {
 @media screen and (max-width: 400px) {
     .title {
         font-size: 35px !important;
+    }
+    
+    .question {
+      display: block;
+      width: initial;
+      margin: 0;
     }
 
     .box > .title {
