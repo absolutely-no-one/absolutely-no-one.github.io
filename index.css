@@ -82,9 +82,9 @@ img:hover {
 
 .question {
   width: 250px !important;
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 450px !important;
-  display: inline-block !important;
+  display: inline-grid !important;
   margin: 10px !important;
 }
 
