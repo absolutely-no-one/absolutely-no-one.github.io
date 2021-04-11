@@ -84,7 +84,14 @@ img:hover {
   height: 450px !important;
   display: inline-grid !important;
   margin: 10px !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
+
+.question::-webkit-scrollbar {
+    display: none;
+}
+
 
 details > summary {
     list-style: none;
