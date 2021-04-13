@@ -122,6 +122,17 @@ details > summary::-webkit-details-marker {
     background-color: #7ea7ff75 !important;
 }
 
+.recent-projects {
+    width: 250px !important;
+    overflow-y: auto;
+    height: 450px !important;
+    display: inline-grid !important;
+    margin: 10px !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+
 @media screen and (max-width: 400px) {
     .title {
         font-size: 35px !important;

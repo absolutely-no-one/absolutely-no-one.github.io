@@ -44,3 +44,10 @@ $.getJSON("questions.json", function(json) {
     }
 });
 
+$.getJSON('https://c.gethopscotch.com/api/v2/users/3944888/published_projects?api_token=4f7769439adf7ef8e482d2daef77375cd6d0158b65fcdca543b74b5c0c92&user%5Bauth_token%5D=qKok4lCx8YB9Wgp%2Bo862AA%3D%3D&user%5Bid%5D=4753230', function(json) {
+    let project = json;
+    for (i=0; i<project.projects.length; i++) {
+        console.log(project.projects.uuid);
+    }
+})
+
