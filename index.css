@@ -122,7 +122,7 @@ details > summary::-webkit-details-marker {
     background-color: #7ea7ff75 !important;
 }
 
-.recent-projects {
+.project-title {
     width: 250px !important;
     overflow-y: auto;
     height: 450px !important;
@@ -130,7 +130,7 @@ details > summary::-webkit-details-marker {
     margin: 10px !important;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    
+    color: var(--white);
 }
 
 @media screen and (max-width: 400px) {
