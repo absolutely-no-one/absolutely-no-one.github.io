@@ -58,19 +58,20 @@ $.getJSON('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://c.
         project.setAttribute('id', 'project' + i);
         project.setAttribute('class', 'project-title mui-panel has-text-centered');
 
-        title.setAttribute('class', 'title is-4');
+        title.setAttribute('class', 'title is-3');
         title.appendChild(document.createTextNode(user.projects[i].title));
 
         thumbnail.setAttribute('id', 'thumbnail' + i);
         thumbnail.setAttribute('class', 'thumbnail');
 
-        stats.setAttribute('class', 'text is-6');
+        stats.setAttribute('class', 'text is-2');
         stats.appendChild(document.createTextNode(user.projects[i]['number_of_stars'] + ' likes, ' + user.projects[i].plants + ' plants'));
 
         element.appendChild(project);
+        project.appendChild(title)
+        project.appendChild(stats)
         document.getElementById('project' + i).appendChild(thumbnail);
-        // document.getElementById('project' + i).appendChild(title);
-        // document.getElementById('project' + i).appendChild(stats);
+        
         thumbnail.style.backgroundImage = 'url(' + user.projects[i]['screenshot_url'] + ')';
         document.getElementById('thumbnail' + i).addEventListener('click', function(e) { 
             var selectedChild = [].slice.call(document.getElementById('recent-projects').querySelectorAll('.thumbnail'), 0);
@@ -79,4 +80,3 @@ $.getJSON('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://c.
         });
     }
 })
-
