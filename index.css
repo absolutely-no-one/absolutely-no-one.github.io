@@ -80,6 +80,7 @@ img:hover {
 
 .question {
   width: 250px !important;
+  max-width: 75%;
   overflow-y: auto;
   height: 450px !important;
   display: inline-grid !important;
@@ -123,14 +124,30 @@ details > summary::-webkit-details-marker {
 }
 
 .project-title {
-    width: 250px !important;
+    width: 255px;
     overflow-y: auto;
-    height: 450px !important;
-    display: inline-grid !important;
-    margin: 10px !important;
+    height: 395px;
+    display: inline-grid;
+    margin: 10px;
     -ms-overflow-style: none;
     scrollbar-width: none;
     color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.project-title > .thumbnail {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    cursor: pointer;
+}
+
+.title {
+    color: white;
 }
 
 @media screen and (max-width: 400px) {
