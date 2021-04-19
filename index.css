@@ -126,8 +126,8 @@ details > summary::-webkit-details-marker {
 .project-title {
     width: 255px;
     overflow-y: auto;
-    height: 395px;
-    display: inline-grid;
+    height: 500px;
+    display: inline-block;
     margin: 10px;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -144,6 +144,7 @@ details > summary::-webkit-details-marker {
     background-size: cover;
     background-position: top center;
     cursor: pointer;
+    height: 70% !important;
 }
 
 .title {
