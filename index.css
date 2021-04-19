@@ -125,26 +125,41 @@ details > summary::-webkit-details-marker {
 
 .project-title {
     width: 255px;
-    overflow-y: auto;
-    height: 500px;
-    display: inline-block;
+    height: 390px;
+    display: inline-grid;
     margin: 10px;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     color: var(--white);
     border-radius: 8px;
     overflow: hidden;
-    margin: 20px;
-
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    position: relative;
 }
 
 .project-title > .thumbnail {
     display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
     cursor: pointer;
-    height: 70% !important;
+    height: auto;
+    width: 90% !important;
+}
+
+.project-text {
+    position: absolute;
+    top: 65%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.stats {
+    top: 90%;
+    text-align: center !important;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 
 .title {

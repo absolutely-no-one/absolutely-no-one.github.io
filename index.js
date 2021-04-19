@@ -52,27 +52,27 @@ $.getJSON('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://c.
         var element = document.getElementById('recent-projects');
         var project = document.createElement('div');
         var title = document.createElement('div');
-        var thumbnail = document.createElement('div');
+        var thumbnail = document.createElement('img');
         var stats = document.createElement('p');
 
         project.setAttribute('id', 'project' + i);
         project.setAttribute('class', 'project-title mui-panel has-text-centered');
 
-        title.setAttribute('class', 'title is-3');
+        title.setAttribute('class', 'title is-4 project-text');
         title.appendChild(document.createTextNode(user.projects[i].title));
 
         thumbnail.setAttribute('id', 'thumbnail' + i);
         thumbnail.setAttribute('class', 'thumbnail');
+        thumbnail.setAttribute('src', user.projects[i].screenshot_url);
 
-        stats.setAttribute('class', 'text is-2');
+        stats.setAttribute('class', 'text is-2 project-text stats');
         stats.appendChild(document.createTextNode(user.projects[i]['number_of_stars'] + ' likes, ' + user.projects[i].plants + ' plants'));
 
         element.appendChild(project);
-        project.appendChild(title)
-        project.appendChild(stats)
         document.getElementById('project' + i).appendChild(thumbnail);
+        project.appendChild(title);
+        project.appendChild(stats);
         
-        thumbnail.style.backgroundImage = 'url(' + user.projects[i]['screenshot_url'] + ')';
         document.getElementById('thumbnail' + i).addEventListener('click', function(e) { 
             var selectedChild = [].slice.call(document.getElementById('recent-projects').querySelectorAll('.thumbnail'), 0);
             var n = selectedChild.indexOf(e.target);
