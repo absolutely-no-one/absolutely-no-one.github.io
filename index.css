@@ -125,7 +125,9 @@ details > summary::-webkit-details-marker {
 
 .project-title {
     width: 255px;
+    max-width: 75%;
     height: 390px;
+    max-height: 250px;
     display: inline-grid;
     margin: 10px;
     color: var(--white);
@@ -156,10 +158,10 @@ details > summary::-webkit-details-marker {
 
 .stats {
     top: 90%;
-    text-align: center !important;
+    text-align: right !important;
     margin: auto;
     left: 0;
-    right: 0;
+    right: 10px;
 }
 
 .title {
@@ -195,5 +197,15 @@ details > summary::-webkit-details-marker {
 
     .asker {
         font-size: 18px !important;
+    }
+
+    .project-text {
+        font-size: 17px !important;
+        top: 70%;
+    }
+
+    .stats {
+        top: 92%;
+        font-size: 12px !important;
     }
 }

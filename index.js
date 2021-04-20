@@ -53,7 +53,7 @@ $.getJSON('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://c.
         var project = document.createElement('div');
         var title = document.createElement('div');
         var thumbnail = document.createElement('img');
-        var stats = document.createElement('p');
+        var likes = document.createElement('p');
 
         project.setAttribute('id', 'project' + i);
         project.setAttribute('class', 'project-title mui-panel has-text-centered');
@@ -65,13 +65,14 @@ $.getJSON('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://c.
         thumbnail.setAttribute('class', 'thumbnail');
         thumbnail.setAttribute('src', user.projects[i].screenshot_url);
 
-        stats.setAttribute('class', 'text is-2 project-text stats');
-        stats.appendChild(document.createTextNode(user.projects[i]['number_of_stars'] + ' likes, ' + user.projects[i].plants + ' plants'));
+        likes.setAttribute('class', 'text project-text stats');
+        likes.innerHTML = '<i class="fa fa-heart"></i>&thinsp;' + user.projects[i]['number_of_stars'] + '&emsp14;&emsp14;<i class="fa fa-leaf"></i>&thinsp;' + user.projects[i]['plants'] + '&emsp14;&emsp14;<i class="fa fa-play"></i>&thinsp;' + user.projects[i]['play_count'];
+        likes.style.fontSize = '18px';
 
         element.appendChild(project);
         document.getElementById('project' + i).appendChild(thumbnail);
         project.appendChild(title);
-        project.appendChild(stats);
+        project.appendChild(likes);
         
         document.getElementById('thumbnail' + i).addEventListener('click', function(e) { 
             var selectedChild = [].slice.call(document.getElementById('recent-projects').querySelectorAll('.thumbnail'), 0);
