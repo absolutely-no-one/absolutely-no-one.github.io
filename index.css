@@ -17,6 +17,10 @@ body {
     z-index: 3;
 }
 
+.black {
+    color: black !important;
+}
+
 #username {
     border-bottom: 3px solid white;
 }
