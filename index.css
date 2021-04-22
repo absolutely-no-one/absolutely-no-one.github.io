@@ -127,7 +127,6 @@ details > summary::-webkit-details-marker {
     width: 255px;
     max-width: 75%;
     height: 390px;
-    max-height: 250px;
     display: inline-grid;
     margin: 10px;
     color: var(--white);
@@ -197,6 +196,10 @@ details > summary::-webkit-details-marker {
 
     .asker {
         font-size: 18px !important;
+    }
+
+    .project-title {
+        max-height: 290px;
     }
 
     .project-text {
