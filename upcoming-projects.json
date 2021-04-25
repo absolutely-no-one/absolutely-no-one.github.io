@@ -1,0 +1,24 @@
+{
+    "projects": [
+        {
+            "title": "Trip Up Sticks",
+            "description": "Trip Up Sticks is a game that I have fiddled around with for 2 years.  I cannot say much without giving it all away, but it is like a tower defense game.  You also build your own city as you win battles.",
+            "release_day": "Mid August, 2021"
+        },
+        {
+            "title": "MegaMash",
+            "description": "Have you ever wanted to listen to a whole playlist on Hopscotch?  You will be able to with MegaMash.  While you play a calm tapper you can listen to a playlist of songs of your choice.  There will also be a search feature so you do not have to scroll way down just to find one song.",
+            "release_day": "Early September, 2021"
+        },
+        {
+            "title": "Jumping Around The World",
+            "description": "You have gotten a message that you've been 'randomly' selected to save the world by finding an object that is hidden.  Of course, the sender of this message knows where it is but you do not.  Journey on a wild goose chase in search of this mystery item in this platformer.",
+            "release_day": "Late December, 2021"
+        },
+        {
+            "title": "205141171614112213221118251457",
+            "description": "Oops.  How'd this get here?  Well that doesn't matter now, I guess you should figure out what to do with it.",
+            "release_day": "Nobody knows"
+        }
+    ]
+}

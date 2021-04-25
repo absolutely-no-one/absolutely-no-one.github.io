@@ -131,6 +131,7 @@ details > summary::-webkit-details-marker {
     width: 255px;
     max-width: 75%;
     height: 390px;
+    max-height: 75%;
     display: inline-grid;
     margin: 10px;
     color: var(--white);
@@ -171,6 +172,22 @@ details > summary::-webkit-details-marker {
     color: white;
 }
 
+#projects > panel {
+    display: inline-grid;
+    width: 350px;
+    max-width: 75%;
+    height: 450px;
+    margin: 10px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    position: relative;
+}
+
+panel::-webkit-scrollbar {
+    display: none;
+}
+
 @media screen and (max-width: 400px) {
     .title {
         font-size: 35px !important;
@@ -208,7 +225,19 @@ details > summary::-webkit-details-marker {
 
     .project-text {
         font-size: 17px !important;
-        top: 70%;
+        top: 68%;
+    }
+
+    .stats {
+        top: 92%;
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+    .project-text {
+        font-size: 17px !important;
+        top: 73%;
     }
 
     .stats {

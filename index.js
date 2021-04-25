@@ -80,4 +80,34 @@ $.getJSON('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://c.
             redirectTo(user.projects[n].uuid); 
         });
     }
-})
+});
+
+
+$.getJSON('upcoming-projects.json', function(json) {
+    for (i = 0; i < json.projects.length; i++) {
+        var element = document.getElementById('projects');
+        var panel = document.createElement('panel');
+        var header = document.createElement('p');
+        var hr = document.createElement('hr');
+        var description = document.createElement('p');
+        var releaseDate = document.createElement('div');
+
+        panel.setAttribute('class', 'mui-panel blue upcoming-project');
+
+        header.setAttribute('class', 'title is-2');
+        header.innerHTML = json.projects[i].title;
+
+        description.setAttribute('class', 'has-text-centered text');
+        description.innerHTML = json.projects[i].description;
+
+        releaseDate.setAttribute('class', 'text');
+        releaseDate.innerHTML = '<i class="fa fa-calendar"></i>&nbsp;' + json.projects[i].release_day;
+        releaseDate.style.fontSize = '25px';
+
+        panel.appendChild(header);
+        panel.appendChild(hr);
+        panel.appendChild(description);
+        panel.appendChild(releaseDate);
+        element.appendChild(panel);
+    }
+});
