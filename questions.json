@@ -214,5 +214,17 @@
         "askedBy": "Innerpanda",
         "answer": "The wall, nobody, or somebody.  It really depends, but most likely when you talk to me it's the wall.",
         "type": "other"
+    },
+    {
+        "question": "How long will it usually take for my question to be answered or to get on the website?",
+        "askedBy": "Innerpanda",
+        "answer": "Usually 1 or 2 days at the most.  I like to code at night so that's why it is not as soon as I see the question.",
+        "type": "other"
+    },
+    {
+        "question": "If I said “I love your projects” what would you respond with?",
+        "askedBy": "Innerpanda",
+        "answer": "Probably a thank you or 'I'm glad I make stuff you enjoy'.  I don't handle compliments well, though I do appreciate them.",
+        "type": "coding"
     }
 ]
